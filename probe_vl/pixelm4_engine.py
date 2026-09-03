@@ -1,6 +1,5 @@
 import torch
 from pixel import PIXELConfig, PIXELForPreTraining
-from pixel.models.pixel.modeling_pixel_denoiser import PIXELForPreTraining as PIXELForDenoising
 from pixel.data.rendering.pangocairo_renderer_bigrams_iso_char import PangoCairoTextRenderer as PangoCairoBigramsRenderer
 from pixel.data.rendering.arabic_renderer import PangoCairoArabicTextRenderer
 from typing import Any, Dict, List, Tuple, Union
@@ -123,10 +122,8 @@ class PixelLM:
                 processor = renderer_class.from_pretrained(path_to_model, fallback_fonts_dir=fallback_fonts_dir, rgb=False,  **config_kwargs)
             
             config = PIXELConfig.from_pretrained(path_to_model, **config_kwargs)
-            if self.is_denoiser:
-                model_class = PIXELForDenoising
-            else:
-                model_class = PIXELForPreTraining
+
+            model_class = PIXELForPreTraining
             model = model_class.from_pretrained(path_to_model, config=config,device_map={"": "cuda:0"},  **config_kwargs).eval()
         else:
             processor = PyGameTextRenderer.from_pretrained(path_to_model)
@@ -430,12 +427,3 @@ class PyGameTextRendererForCognitiveModeling(PyGameTextRenderer):
         return encoding
 
 
-#def get_attention_head_map(attentions, layer_indices):
-#    attention_by_layers = []
-#    
-#    for l in layer_indices:
-#        attention_cur_layer = attentions[l]#[b,n_head, s,t]
-#        attention_cur_layer_all_head = attention_cur_layer.mean(dim = 1)
-#        attention_cur_layer_all_target = attention_cur_layer_all_head.mean(dim = 1)#[b,t]
-#        attention_by_layers.append(attention_cur_layer_all_target)
-#    return torch.stack(attention_by_layers, dim = 1)

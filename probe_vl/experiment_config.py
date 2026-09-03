@@ -1,10 +1,10 @@
 DATASET_PARAS = '../scripts/probe_paras.yml'
-PIXEL_M4 = "..."
-DE_PIXEL = "..."
-PERSIAN_PIXEL = "..."
-KO_PIXEL = "..."
-ES_PIXEL = "..."
-TR_PIXEL = "..."
+PIXEL_M4 = "..." #path to the base pixel-m4 checkpoint (for English and Chinese)
+DE_PIXEL = "..." #path to the pixel-m4 checkpoint for german
+PERSIAN_PIXEL = "..." #path to the pixel-m4 checkpoint for persian
+KO_PIXEL = "..." #path to the pixel-m4 checkpoint for korean
+ES_PIXEL = "..." #path to the pixel-m4 checkpoint for spanish
+TR_PIXEL = "..." #path to the pixel-m4 checkpoint for turkish
 LANG_CONFIG = {
 
     "es":{
