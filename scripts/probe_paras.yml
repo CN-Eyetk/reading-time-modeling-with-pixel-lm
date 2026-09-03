@@ -1,0 +1,434 @@
+ge_zu:
+  path: "../data/merge/ge_zu.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "de"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+tr:
+  path: "../data/merge/tr.csv"
+  plot_paras: "../paras/plot_paras_tr.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "tr"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+ko:
+  path: "../data/merge/ko.csv"
+  plot_paras: "../paras/plot_paras_ko.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "ko"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+simp:
+  path: "../data/merge/rm_simp.csv"
+  plot_paras: "../paras/plot_paras_meco_cn.yaml"
+  colname_of_ia_idx: "wordnum"
+  colname_of_ia_label: "word"
+  colname_of_fixation: False
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: False
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "stimuli_id"
+  colname_of_stimuli_features: 
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: False
+  lang: "zh"
+  data_is_rm: True
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id:
+trad:
+  path: "../data/merge/rm_trad.csv"
+  plot_paras: "../paras/plot_paras_meco_cn.yaml"
+  colname_of_ia_idx: "wordnum"
+  colname_of_ia_label: "word"
+  colname_of_fixation: False
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: False
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "stimuli_id"
+  colname_of_stimuli_features: 
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: False
+  lang: "zh"
+  data_is_rm: True
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id:
+ge_po:
+  path: "../data/merge/ge_po.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "de"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+ge_uk:
+  path: "../data/merge/en_uk.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "en"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+en:
+  path: "../data/merge/rm_en.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wordnum"
+  colname_of_ia_label: "word"
+  colname_of_fixation: False
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: False
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "stimuli_id"
+  colname_of_stimuli_features: 
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "en"
+  data_is_rm: True
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id:
+es:
+  path: "../data/merge/merge_es.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "es"
+  data_is_rm: False
+  use_sent_idx: True
+  generate_sent_idx: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+es_ch:
+  path: "../data/merge/rm_es_ch.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wordnum"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "es"
+  data_is_rm: True
+  use_sent_idx: True
+  generate_sent_idx: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id:
+persian2:
+  path: "../data/merge/merge_persian.csv"
+  plot_paras: "../paras/plot_paras_arab.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "IA_LABEL"
+  colname_of_fixation: "CURRENT_FIX_DURATION"
+  colname_of_pupil:
+  colname_of_x:
+  colname_of_ia_left:
+  colname_of_ia_right:
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position:
+  colname_of_subj_id: "RECORDING_SESSION_LABEL"
+  colname_of_sentence_id: "sn"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: False
+  lang: "fa"
+  data_is_rm: False
+  is_rtl: True
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: CURRENT_FIX_INDEX
+  use_sent_idx: False
+ko_2:
+  path: "../data/merge/ko.csv"
+  plot_paras: "../paras/plot_paras_ko.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "ko"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+ge_zu_2:
+  path: "../data/merge/ge_zu.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "de"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+ge_po_2:
+  path: "../data/merge/ge_po.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "de"
+  data_is_rm: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+ge2:
+  path: "../data/merge/rm_ge.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wordnum"
+  colname_of_ia_label: "word"
+  colname_of_fixation: False
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: False
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "stimuli_id"
+  colname_of_stimuli_features: 
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "ge"
+  data_is_rm: True
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id:
+es_2:
+  path: "../data/merge/merge_es.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "es"
+  data_is_rm: False
+  use_sent_idx: True
+  generate_sent_idx: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id: "fixid"
+es_ch_2:
+  path: "../data/merge/rm_es_ch.csv"
+  plot_paras: "../paras/plot_paras_potec.yaml"
+  colname_of_ia_idx: "wn"
+  colname_of_ia_label: "word"
+  colname_of_fixation: "dur"
+  colname_of_pupil: False
+  colname_of_x: xs
+  colname_of_ia_left: False
+  colname_of_ia_right: False
+  colname_of_experiment_paradigms: 
+  ia_idx_start_from: 1
+  colname_of_landing_position: "ps"
+  colname_of_subj_id: "subid"
+  colname_of_sentence_id: "trialid"
+  colname_of_stimuli_features: "ias"
+  merge_subj: True
+  path_to_precomputed: "precomputed/"
+  spaced: True
+  lang: "es"
+  data_is_rm: True
+  use_sent_idx: True
+  generate_sent_idx: False
+  is_rtl: False
+  filter_by:
+  generate_sent_idx: False
+  colname_of_fix_id:

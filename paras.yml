@@ -1,0 +1,8 @@
+char_width: 28
+space_width: 0
+margin: 5
+y_base: 0
+xlim: 800
+ylim: 250
+font_size: 20
+font: /home/junlinli/junlinli/plmd/polyeye/fonts/FangSong2.ttf
