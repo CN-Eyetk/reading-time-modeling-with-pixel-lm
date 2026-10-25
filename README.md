@@ -1,5 +1,8 @@
 # Reading Time Modeling with Pixel-Based Language Models
-
+<p align="center">
+  <img src="assets/output.gif" alt="Demo" width="600">
+  <img src="assets/output2.gif" alt="Demo" width="600">
+</p>
 This repository contains code for modeling reading time with GPT-2, mGPT, BERT, and pixel-based language models.
 
 ## Setup
